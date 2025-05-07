@@ -20,4 +20,5 @@ WebDriverWait(driver, 3).until(expected_conditions.visibility_of_element_located
 
 # Проверь, что текущий url равен 'https://qa-mesto.praktikum-services.ru/'
 assert driver.current_url == 'https://qa-mesto.praktikum-services.ru/'
-driver.quit()
+
+driver.quit() 
