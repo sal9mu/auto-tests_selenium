@@ -1,4 +1,4 @@
-import random
+mport random
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -9,8 +9,8 @@ driver = webdriver.Chrome()
 driver.get("https://qa-mesto.praktikum-services.ru/")
 
 # Выполни авторизацию
-driver.find_element(By.ID, "email").send_keys("some_email")
-driver.find_element(By.ID, "password").send_keys("some_password")
+driver.find_element(By.ID, 'email').send_keys('av-pa@mail.ru')
+driver.find_element(By.ID, 'password').send_keys('599119')
 driver.find_element(By.CLASS_NAME, 'auth-form__button').click()
 
 # Добавь явное ожидание для загрузки списка карточек контента
